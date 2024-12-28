@@ -1,5 +1,9 @@
 import s from "./page.module.scss";
 
 export default function Home() {
-  return <div className={s.page}></div>;
+  return (
+    <main className={s.page}>
+      <h1>Home page</h1>
+    </main>
+  );
 }
