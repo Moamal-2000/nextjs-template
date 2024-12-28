@@ -1,4 +1,6 @@
 ![nextjs](https://github.com/user-attachments/assets/b5b02513-0f24-4d18-8863-7243a7ebbeef)
+![1675674296261](https://github.com/user-attachments/assets/1b508b35-343f-4b70-ada0-73dc26cda6a5)
+
 
 # Next.js v15 Starter Template
 
