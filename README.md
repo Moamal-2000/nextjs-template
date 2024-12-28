@@ -11,7 +11,8 @@ This is a modern starter template designed for developers to kickstart their Nex
 - **State Management**: Integrated with Redux Toolkit for advanced state management.
 - **Context API**: Simplified state sharing without prop drilling.
 - **Custom Hooks**: Prebuilt hooks to enhance reusability and efficiency.
-- **Environment Variables**: Centralized and secure configuration using `.env` files.
+- **Environment Variables**: Centralized and secure configuration using `.env` files.  
+  **⚠️ Note:** Make sure to uncomment the `.env` file from the `.gitignore` file to ignore pushing it in the repo.
 
 ---
 
