@@ -1,3 +1,4 @@
+import GlobalContextProvider from "@/context/GlobalContext";
 import "../styles/globals.scss";
 
 export const metadata = {
@@ -7,8 +8,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+    <GlobalContextProvider>
+      <html lang="en">
+        <body>{children}</body>
+      </html>
+    </GlobalContextProvider>
   );
 }
