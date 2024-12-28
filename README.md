@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js v15 Starter Template
+
+This is a modern starter template designed for developers to kickstart their Next.js v15 projects. It comes pre-configured with essential tools and best practices to accelerate development and reduce boilerplate setup.
+
+---
+
+## Features
+
+- **Next.js v15**: Latest version of Next.js with optimized performance and features.
+- **Organized Folder Structure**: Clean and extensible architecture for better maintainability.
+- **State Management**: Integrated with Redux Toolkit for advanced state management.
+- **Context API**: Simplified state sharing without prop drilling.
+- **Custom Hooks**: Prebuilt hooks to enhance reusability and efficiency.
+- **Environment Variables**: Centralized and secure configuration using `.env` files.
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Clone the Repository
+
+Start by cloning the repository:
+
+```bash
+git clone git@github.com:Moamal-2000/nextjs-template.git
+```
+
+---
+
+### Install Dependencies
+
+Ensure you have Node.js installed on your machine. Then run:
+
+```bash
+npm install
+```
+
+Or, if you prefer Yarn:
+
+```bash
+yarn install
+```
+
+---
+
+### Run the Development Server
+
+To start the local development server, use:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Your application will be available at `http://localhost:3000` by default.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Build for Production
 
-## Learn More
+To create an optimized production build, run:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You can then serve the build using:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run start
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Folder Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **`/pages`**: Contains the app's routes and API endpoints.
+- **`/components`**: Reusable UI components.
+- **`/styles`**: Global and component-specific styles.
+- **`/hooks`**: Custom React hooks for shared logic.
+- **`/redux`**: State management setup with Redux Toolkit.
+- **`/public`**: Static assets like images and fonts.
+
+---
+
+## Customization
+
+This template is designed to be flexible and extendable. Feel free to customize it to fit your specific project requirements.
+
+---
+
+## Contributing
+
+Contributions are welcome! If you have ideas for improvement or find any issues, feel free to fork the repository, make your changes, and open a pull request.
