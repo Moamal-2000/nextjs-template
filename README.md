@@ -1,3 +1,5 @@
+![nextjs](https://github.com/user-attachments/assets/b5b02513-0f24-4d18-8863-7243a7ebbeef)
+
 # Next.js v15 Starter Template
 
 This is a modern starter template designed for developers to kickstart their Next.js v15 projects. It comes pre-configured with essential tools and best practices to accelerate development and reduce boilerplate setup.
@@ -6,7 +8,7 @@ This is a modern starter template designed for developers to kickstart their Nex
 
 ## Features
 
-- **Next.js v15**: Latest version of Next.js with optimized performance and features.
+- **Next.js v15**: The latest version of Next.js with optimized performance and features.
 - **Organized Folder Structure**: Clean and extensible architecture for better maintainability.
 - **State Management**: Integrated with Redux Toolkit for advanced state management.
 - **Context API**: Simplified state sharing without prop drilling.
