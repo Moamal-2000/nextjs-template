@@ -1,5 +1,5 @@
-import GlobalContextProvider from "@/context/GlobalContext";
 import "../styles/globals.scss";
+import RootProviders from "./RootProviders";
 
 export const metadata = {
   title: "Create Next App",
@@ -8,10 +8,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <GlobalContextProvider>
+    <RootProviders>
       <html lang="en">
         <body>{children}</body>
       </html>
-    </GlobalContextProvider>
+    </RootProviders>
   );
 }
