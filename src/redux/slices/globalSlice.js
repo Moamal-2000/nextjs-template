@@ -1,11 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = {}
+const initialState = {};
 
 export const globalSlice = createSlice({
   initialState,
   name: "globalSlice",
-  reducers: {}
-})
+  reducers: {},
+});
 
 export default globalSlice.reducer;
+export const {} = globalSlice.actions;
