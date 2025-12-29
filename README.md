@@ -1,20 +1,16 @@
 ![nextjs](https://github.com/user-attachments/assets/b5b02513-0f24-4d18-8863-7243a7ebbeef)
 
-# Next.js v15 Starter Template
+# Next.js v16 Starter Template
 
-This is a modern starter template designed for developers to kickstart their Next.js v15 projects. It comes pre-configured with essential tools and best practices to accelerate development and reduce boilerplate setup.
+This is a modern starter template designed for developers to kickstart their Next.js v16 projects. It comes pre-configured with essential tools and best practices to accelerate development and reduce boilerplate setup.
 
 ---
 
 ## Features
 
-- **Next.js v15**: The latest version of Next.js with optimized performance and features.
+- **Next.js v16**: The latest version of Next.js with optimized performance and features.
 - **Organized Folder Structure**: Clean and extensible architecture for better maintainability.
 - **State Management**: Integrated with Redux Toolkit for advanced state management.
-- **Context API**: Simplified state sharing without prop drilling.
-- **Custom Hooks**: Prebuilt hooks to enhance reusability and efficiency.
-- **Environment Variables**: Centralized and secure configuration using `.env` files.  
-  **⚠️ Note:** Make sure to uncomment the `.env` file from the `.gitignore` file to ignore pushing it in the repo.
 
 ---
 
@@ -35,7 +31,7 @@ git clone git@github.com:Moamal-2000/nextjs-template.git
 Ensure you have Node.js installed on your machine. Then run:
 
 ```bash
-npm install
+pnpm install
 ```
 
 Or, if you prefer Yarn:
@@ -51,7 +47,7 @@ yarn install
 To start the local development server, use:
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 Your application will be available at `http://localhost:3000` by default.
@@ -63,22 +59,22 @@ Your application will be available at `http://localhost:3000` by default.
 To create an optimized production build, run:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 You can then serve the build using:
 
 ```bash
-npm run start
+pnpm run start
 ```
 
 ---
 
 ### Folder Structure
 
-- **`/pages`**: Contains the app's routes and API endpoints.
+- **`/app`**: Contains the app's routes and API endpoints.
 - **`/components`**: Reusable UI components.
-- **`/styles`**: Global and component-specific styles.
+- **`/styles`**: Global and helper style files.
 - **`/hooks`**: Custom React hooks for shared logic.
 - **`/redux`**: State management setup with Redux Toolkit.
 - **`/public`**: Static assets like images and fonts.
