@@ -31,7 +31,7 @@ git clone git@github.com:Moamal-2000/nextjs-template.git
 Ensure you have Node.js installed on your machine. Then run:
 
 ```bash
-pnpm install
+npm install
 ```
 
 Or, if you prefer Yarn:
@@ -47,7 +47,7 @@ yarn install
 To start the local development server, use:
 
 ```bash
-pnpm run dev
+npm run dev
 ```
 
 Your application will be available at `http://localhost:3000` by default.
@@ -59,13 +59,13 @@ Your application will be available at `http://localhost:3000` by default.
 To create an optimized production build, run:
 
 ```bash
-pnpm run build
+npm run build
 ```
 
 You can then serve the build using:
 
 ```bash
-pnpm run start
+npm run start
 ```
 
 ---
