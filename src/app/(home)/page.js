@@ -1,5 +1,5 @@
 import { getOpenGraphMetadata } from "@/data/metadata";
-import s from "./page.module.scss";
+import s from "./Home.module.scss";
 
 export function generateMetadata() {
   return getOpenGraphMetadata();
@@ -7,7 +7,7 @@ export function generateMetadata() {
 
 export default function Home() {
   return (
-    <main className={s.home}>
+    <main className={s.main}>
       <h1>Home page</h1>
     </main>
   );
