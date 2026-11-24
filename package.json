@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint src"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.15.0",
@@ -15,7 +16,15 @@
     "react-redux": "^9.3.1"
   },
   "devDependencies": {
+    "@axe-core/react": "^4.14.1",
     "babel-plugin-react-compiler": "^1.0.0",
+    "eslint": "^10.15.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
     "sass": "^1.108.2"
+  },
+  "overrides": {
+    "eslint-plugin-jsx-a11y": {
+      "eslint": "$eslint"
+    }
   }
 }
