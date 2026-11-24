@@ -1,5 +1,5 @@
 import "../styles/globals.scss";
-import RootProviders from "./RootProviders";
+import Providers from "./Providers";
 
 export const metadata = {
   title: "Create Next App",
@@ -8,10 +8,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <RootProviders>
+    <Providers>
       <html lang="en">
         <body>{children}</body>
       </html>
-    </RootProviders>
+    </Providers>
   );
 }

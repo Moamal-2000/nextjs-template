@@ -3,8 +3,8 @@
 import { store } from "@/redux/store";
 import { Provider } from "react-redux";
 
-const RootProviders = ({ children }) => {
+const Providers = ({ children }) => {
   return <Provider store={store}>{children}</Provider>;
 };
 
-export default RootProviders;
+export default Providers;
